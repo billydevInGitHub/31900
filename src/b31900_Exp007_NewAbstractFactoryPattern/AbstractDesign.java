@@ -79,7 +79,7 @@ class FactoryProvider {
 public class AbstractDesign {
 
 	public static void main(String[] args) {
-		FactoryProvider.getFactory("X").produceA().productInfo();
+		FactoryProvider.getFactory("X").produceA().productInfo();//XA combination , there should be 4 combinations
 		FactoryProvider.getFactory("Y").produceB().productInfo();
 	}
 }
