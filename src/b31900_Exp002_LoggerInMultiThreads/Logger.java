@@ -14,7 +14,9 @@ public class Logger {
 		}
 		return myInstance; 
 	}
-	
+
+
+
 	public void log(String s){
 		System.err.println(s);
 	}
